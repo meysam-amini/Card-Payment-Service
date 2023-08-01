@@ -1,0 +1,10 @@
+CREATE TABLE transfer (
+id INTEGER GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+firstcard VARCHAR(255) NOT NULL,
+secondcard VARCHAR(255) NOT NULL,
+secondcardphonenumber VARCHAR(255) NOT NULL,
+amount INTEGER,
+date Date,
+TransferStatus VARCHAR(255) DEFAULT('UNCOMMITTED'),
+version INTEGER DEFAULT(0)
+);
