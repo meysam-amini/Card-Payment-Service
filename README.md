@@ -1,3 +1,3 @@
-# A Card to Card Payment Scenario Implemented With Spring Cloud And Spring Webflux
+# A card to card transfer scenario implemented with Spring Cloud and Spring Webflux
 
 
